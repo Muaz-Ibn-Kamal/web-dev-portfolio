@@ -70,15 +70,23 @@ nav li a{
     margin:  0 35px 0 200px;
 }
 .banner-content{
-    max-width: 580px;
+    max-width: 585px;
 }
 .banner-greeting{
+    margin-bottom: 5px;
     font-size: 45px;
     font-weight: 600;
 }
 .banner-title{
+    margin-top: 5px;
     font-weight: bold;
     font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-description{
+    /* margin-top: 20px; */
+    margin-bottom: 30px;
+    
 }
 .banner-profile-pic{
     width: 580px;
@@ -138,7 +146,7 @@ main{
  }
  .resume-container{
     display: flex;
-    gap: 24px;
+    gap: 71px;
     
  }
  .experience-sub-title{
@@ -186,6 +194,7 @@ main{
  }
 
  .footer-column{
+  
     width: 50%;
  }
  footer input[type="text"],footer input[type="email"],footer textarea{
@@ -197,4 +206,30 @@ main{
     padding: 10px 20px;
     margin-bottom: 24px;
     border: none;
+ }
+ .btn{
+    display: flex;
+    gap: 30px;
+ }
+ .footer-bg{
+    background-color: #fff8f3;
+ }
+ .footer-section-title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 20px;
+    /* text-align: left; */
+ }
+ .social-media{
+    display: flex;
+    gap: 24px;
+ }
+ .footer-section-title-message{
+    font-weight: bold;
+    font-size: 35px;
+ }
+ .Resume-flexing{
+
+    /* display: flex;
+    gap: 20px; */
  }
